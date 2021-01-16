@@ -18,8 +18,8 @@
 - [x] dlib
   Menggunakan Environment yang dibuat Menggunakan Anaconda
   >conda create -n virenv
-  conda activate virenv
-  conda install -c conda-forge dlib
+  >conda activate virenv
+  >conda install -c conda-forge dlib
 
 Output
 --------
