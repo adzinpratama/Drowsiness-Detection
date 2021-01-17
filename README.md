@@ -16,7 +16,8 @@
 - [x] pygame
   >pip install pygame
 - [x] dlib
-  Menggunakan Environment yang dibuat Menggunakan Anaconda
+  ****`Menggunakan Environment yang dibuat Menggunakan Anaconda`****
+
   >conda create -n virenv
 
   >conda activate virenv
