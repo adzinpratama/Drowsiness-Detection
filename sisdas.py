@@ -20,7 +20,7 @@ font=cv2.FONT_HERSHEY_SIMPLEX
 def midpoint(p1 ,p2):
     return int((p1.x + p2.x)/2), int((p1.y + p2.y)/2)
 
-# mendifinisikan Euclidean distance
+# mendifinisikan jarak Euclidean
 def euclidean_distance(leftx,lefty, rightx, righty):
   return np.sqrt((leftx-rightx)**2 +(lefty-righty)**2)
 
@@ -75,7 +75,7 @@ while True:
         eye_close_ratio_1 = eye_close_ratio * 100
         eye_close_ratio_2 = np.round(eye_close_ratio_1)
         eye_close_ratio_rounded = eye_close_ratio_2 / 100
-        # menambah rasio tertutupnya mata ke variabel eye_blinking
+        # menambah rasio tertutupnya mata ke variabel eye_close
         eye_close_signal.append(eye_close_ratio)
         if eye_close_ratio < 0.20:      
             score = score + 1
