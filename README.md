@@ -1,8 +1,3 @@
-# Kelas-B-Kelompok-8
-**Anggota :**
-- Nama : Hilmi Adzin Pratama
-- Nim : 18040210
-
 #### Test on Python Version 3.9  
 ---
 ## Library Yang Dibutuhkan
